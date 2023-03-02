@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Project-1</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="leftside-nav">
+            <div class="navbar">
+                <a href="#">
+                    <div id="logo-img">
+                        <img src="logo.png" alt="">
+                    </div>
+                </a>
+                <a href="#">
+                    <div id="logo-name">
+                        <h3>LoverBoy <br>Music
+                        </h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="rightside-nav">
+            <div class="navbar">
+                <div id="search-bar">
+                    <input type="text" placeholder="Search">
+                    <i class="bi bi-mic-fill"></i>
+                </div>
+                <i class="bi bi-bell-fill" id="bell-icon"></i>
+                <div id="account-logo">
+                    <img src="Pic.jpg" alt="">
+                    <span>Ashis</span>
+                </div>
+                <a href="#queue-part">
+                    <i class="bi bi-list for-queue"></i>
+
+                </a>
+            </div>
+        </div>
+    </nav>
+    <main>
+
+        <!-- Left Side/Aside Container -->
+        <aside class="left-container" id="left-aside">
+            <ul class="left-nav">
+                <li>
+                    <a href="#">
+                        <i class="bi bi-house"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="bi bi-search"></i>
+                        <span>Search</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="bi bi-music-note-list"></i>
+                        <span>Library</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="bi bi-file-earmark-music"></i>
+                        <span>Playlist</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="bi bi-calendar2-heart"></i>
+                        <span>Favourite</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="bi bi-cloud-arrow-down"></i>
+                        <span>Downloads</span>
+                    </a>
+                </li>
+            </ul>
+        </aside>
+        <!-- For Left Side/ Aside/Responsive------------------------ -->
+        <aside id="for-leftcontainer">
+            <ul>
+                <a href="#left-aside">
+                    <li><i class="bi bi-house"></i></li>
+                </a>
+                <a href="#left-aside">
+                    <li><i class="bi bi-search"></i></li>
+                </a>
+                <a href="#left-aside">
+                    <li><i class="bi bi-music-note-list"></i></li>
+                </a>
+                <a href="#left-aside">
+                    <li><i class="bi bi-file-earmark-music"></i></li>
+                </a>
+                <a href="#left-aside">
+                    <li><i class="bi bi-calendar2-heart"></i></li>
+                </a>
+                <a href="#left-aside">
+                    <li><i class="bi bi-cloud-arrow-down"></i></li>
+                </a>
+            </ul>
+        </aside>
+        <!-- ------------------------------------------------------- -->
+
+
+        <!-- Mid/Main Portion--------------------------------------- -->
+        <div class="side-section-2">
+            <!-- Hoverable boxes -->
+            <section class="category" id="hoverable-boxes">
+                <div class="hoverbox" id="latino">
+                    <a href="#">
+                        <img src="https://www.billboard.com/wp-content/uploads/media/latin-songs-of-the-year-2017-yim-billboard-1548.jpg"
+                            alt="Latino Songs">
+                    </a>
+                </div>
+                <div class="hoverbox" id="mood">
+                    <img src="https://images.hungama.com/c/1/e99/5a1/40880587/40880587_300x300.jpg" alt="Moody Songs">
+                </div>
+                <div class="hoverbox" id="edm">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3tbkbzJOg3i37g1b1aNbs_lG2NlNv0s89ZQ&usqp=CAU"
+                        alt="EDM">
+                </div>
+            </section>
+
+            <!-- Latest release -->
+            <section class="category" id="latest-release">
+                <h2 class="section-heading">Latest Release</h2>
+                <div class="latest-music">
+                    <div class="song">
+                        <img src="https://ik.imagekit.io/j83rchiauw/A_List_Star/shreya-ghoshal-biography-tring.jpg"
+                            alt="">
+                        <div class="song-details">
+                            <div class="song-desc">
+                                <h3>Teri Ore</h3>
+                                <span>16,Jan 2023</span>
+                            </div>
+                            <div class="timer">
+                                <i class="bi bi-three-dots"></i>
+                                <br>
+                                <span>4:45</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="song">
+                        <img src="https://ik.imagekit.io/j83rchiauw/A_List_Star/shreya-ghoshal-biography-tring.jpg"
+                            alt="">
+                        <div class="song-details">
+                            <div class="song-desc">
+                                <h3>Teri Ore</h3>
+                                <span>16,Jan 2023</span>
+                            </div>
+                            <div class="timer">
+                                <i class="bi bi-three-dots"></i>
+                                <br>
+                                <span>4:45</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="song">
+                        <img src="https://ik.imagekit.io/j83rchiauw/A_List_Star/shreya-ghoshal-biography-tring.jpg"
+                            alt="">
+                        <div class="song-details">
+                            <div class="song-desc">
+                                <h3>Teri Ore</h3>
+                                <span>16,Jan 2023</span>
+                            </div>
+                            <div class="timer">
+                                <i class="bi bi-three-dots"></i>
+                                <br>
+                                <span>4:45</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="song">
+                        <img src="https://ik.imagekit.io/j83rchiauw/A_List_Star/shreya-ghoshal-biography-tring.jpg"
+                            alt="">
+                        <div class="song-details">
+                            <div class="song-desc">
+                                <h3>Teri Ore</h3>
+                                <span>16,Jan 2023</span>
+                            </div>
+                            <div class="timer">
+                                <i class="bi bi-three-dots"></i>
+                                <br>
+                                <span>4:45</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="song">
+                        <img src="https://ik.imagekit.io/j83rchiauw/A_List_Star/shreya-ghoshal-biography-tring.jpg"
+                            alt="">
+                        <div class="song-details">
+                            <div class="song-desc">
+                                <h3>Teri Ore</h3>
+                                <span>16,Jan 2023</span>
+                            </div>
+                            <div class="timer">
+                                <i class="bi bi-three-dots"></i>
+                                <br>
+                                <span>4:45</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="song">
+                        <img src="https://ik.imagekit.io/j83rchiauw/A_List_Star/shreya-ghoshal-biography-tring.jpg"
+                            alt="">
+                        <div class="song-details">
+                            <div class="song-desc">
+                                <h3>Teri Ore</h3>
+                                <span>16,Jan 2023</span>
+                            </div>
+                            <div class="timer">
+                                <i class="bi bi-three-dots"></i>
+                                <br>
+                                <span>4:45</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="song">
+                        <img src="https://ik.imagekit.io/j83rchiauw/A_List_Star/shreya-ghoshal-biography-tring.jpg"
+                            alt="">
+                        <div class="song-details">
+                            <div class="song-desc">
+                                <h3>Teri Ore</h3>
+                                <span>16,Jan 2023</span>
+                            </div>
+                            <div class="timer">
+                                <i class="bi bi-three-dots"></i>
+                                <br>
+                                <span>4:45</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="song">
+                        <img src="https://ik.imagekit.io/j83rchiauw/A_List_Star/shreya-ghoshal-biography-tring.jpg"
+                            alt="">
+                        <div class="song-details">
+                            <div class="song-desc">
+                                <h3>Teri Ore</h3>
+                                <span>16,Jan 2023</span>
+                            </div>
+                            <div class="timer">
+                                <i class="bi bi-three-dots"></i>
+                                <br>
+                                <span>4:45</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Artists -->
+            <section class="category" id="artist">
+                <h2>Popular Artist</h2>
+                <ul class="artist-list">
+                    <li>
+                        <a href="coldplay.html">
+                            <div class="artist-box">
+                                <img src="https://i1.sndcdn.com/avatars-000237271265-7hhnty-t500x500.jpg" alt="">
+                            </div>
+                            <h4>Coldplay</h4>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="coldplay.html">
+                            <div class="artist-box">
+                                <img src="https://images.saymedia-content.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:eco%2Cw_1200/MTg2MTA4Njk5MDQxODY2ODgx/top-5-hottest-young-singers-today.jpg"
+                                    alt="">
+                            </div>
+                            <h4>Billie Eilish</h4>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="coldplay.html">
+                            <div class="artist-box">
+                                <img src="https://wallpaper.dog/large/20518629.jpg" alt="">
+                            </div>
+                            <h4>Justein Bieber</h4>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="coldplay.html">
+                            <div class="artist-box">
+                                <img src="https://pbs.twimg.com/media/FE1FhWHWUAEXfQK.jpg" alt="">
+                            </div>
+                            <h4>Alan Walker</h4>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="coldplay.html">
+                            <div class="artist-box">
+                                <img src="https://dailymusicroll.s3.us-west-2.amazonaws.com/wp-content/uploads/2019/12/27124120/Ariana-Grande-2.jpg"
+                                    alt="">
+                            </div>
+                            <h4>Ariana Grande</h4>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="coldplay.html">
+                            <div class="artist-box">
+                                <img src="https://m.media-amazon.com/images/M/MV5BZGM0YjhkZmEtNGYxYy00OTk0LThlNDgtNGQzM2YwNjU0NDQzXkEyXkFqcGdeQXVyMTU3ODQxNDYz._V1_.jpg"
+                                    alt="">
+                            </div>
+                            <h4>Taylor Swift</h4>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="coldplay.html">
+                            <div class="artist-box">
+                                <img src="https://www.singers.com/people/images/bruno-mars.jpg" alt="">
+                            </div>
+                            <h4>Bruno Mars</h4>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="coldplay.html">
+                            <div class="artist-box">
+                                <img src="https://api.time.com/wp-content/uploads/2015/03/zayn-malik.jpg" alt="">
+                            </div>
+                            <h4>Zayn</h4>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="coldplay.html">
+                            <div class="artist-box">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Ed_Sheeran-6886_%28cropped%29.jpg"
+                                    alt="">
+                            </div>
+                            <h4>Ed Sheeran</h4>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <!-- Station Songs/ Love Retro -->
+            <section class="category" id="station">
+                <div class="station-type">
+                    <div class="station-img" id="love">
+                        <img src="https://www.udiscovermusic.com/wp-content/uploads/2019/02/Best-Love-Songs-featured-image.jpg"
+                            alt="Love Songs">
+                    </div>
+                    <div class="center-text">
+                        Love
+                    </div>
+                </div>
+
+                <div class="station-type">
+                    <div class="station-img" id="retro">
+                        <img src="https://c.saavncdn.com/685/Retro-Cool-Vol-3-Hindi-2020-20210315162921-500x500.jpg"
+                            alt="Love Songs">
+                    </div>
+                    <div class="center-text">
+                        Retro
+                    </div>
+                </div>
+
+                <div class="station-type">
+                    <div class="station-img" id="chill">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ98hpFCjYvg3LY--KAa24lEmgbet2IUsYXbg&usqp=CAU"
+                            alt="Love Songs">
+                    </div>
+                    <div class="center-text">
+                        Chill
+                    </div>
+                </div>
+
+                <div class="station-type">
+                    <div class="station-img" id="workout">
+                        <img src="https://media.gq-magazine.co.uk/photos/5d6664a036fbf10009a3efe0/master/pass/20190828-Gym-Music.jpg"
+                            alt="Love Songs">
+                    </div>
+                    <div class="center-text">
+                        Workout
+                    </div>
+                </div>
+
+                <div class="station-type">
+                    <div class="station-img" id="rock">
+                        <img src="https://m.media-amazon.com/images/I/813M6KI9WQS.jpg" alt="Love Songs" width="180"
+                            height="180">
+                    </div>
+                    <div class="center-text">
+                        Rock
+                    </div>
+                </div>
+
+                <div class="station-type">
+                    <div class="station-img" id="pop">
+                        <img src="https://www.teahub.io/photos/full/151-1515465_pop-music-wallpaper-hd.jpg"
+                            alt="Love Songs">
+                    </div>
+                    <div class="center-text">
+                        Pop
+                    </div>
+                </div>
+
+            </section>
+            <!-- genre -->
+            <section class="category" id="genre">
+                <div class="genre-box">
+                    <div class="genre-img">
+                        <img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bXVzaWMlMjBwYXJ0eXxlbnwwfHwwfHw%3D&w=1000&q=80"
+                            alt="">
+                    </div>
+                    <div class="center-text">
+                        Party
+                    </div>
+
+                </div>
+
+                <div class="genre-box">
+                    <div class="genre-img">
+                        <img src="https://miro.medium.com/max/1128/1*x8-S7yIxqxRMdnbwFhdI9g.jpeg" alt="">
+                    </div>
+                    <div class="center-text">
+                        Electronic
+                    </div>
+
+                </div>
+
+                <div class="genre-box">
+                    <div class="genre-img">
+                        <img src="https://www.mistay.in/travel-blog/content/images/2021/07/songs.png" alt="">
+                    </div>
+                    <div class="center-text">
+                        Roadtrip
+                    </div>
+
+                </div>
+
+            </section>
+            <!-- Latest English -->
+            <section class="category latest-songs" id="">
+                <h2>Latest English</h2>
+                <div class="latest-box">
+                    <div class="img-box">
+                        <img src="https://i.ytimg.com/vi/pA2ElzktvSE/maxresdefault.jpg" alt="Sunflower">
+                        <h3>Sunflower</h3>
+                        <span>16,Jan 2023</span>
+                    </div>
+
+                    <div class="img-box">
+                        <img src="https://www.billboard.com/wp-content/uploads/media/katy-perry-roar-video-650-430.jpg"
+                            alt="Roar">
+                        <h3>Roar</h3>
+                        <span>16,Jan 2023</span>
+                    </div>
+
+                    <div class="img-box">
+                        <img src="https://m.media-amazon.com/images/M/MV5BMzljNWVjODYtMjNkNS00N2E5LThlNmMtNjJiOTM1ZGVlM2NmXkEyXkFqcGdeQXVyMTk4OTA2Nzg@._V1_.jpg"
+                            alt="Perfect">
+                        <h3>Perfect</h3>
+                        <span>16,Jan 2023</span>
+                    </div>
+
+                    <div class="img-box">
+                        <img src="https://i.pinimg.com/236x/10/cc/4f/10cc4fd2d42d439c1fd1d63a3959b0f5.jpg" alt="Alone">
+                        <h3>Alone</h3>
+                        <span>16,Jan 2023</span>
+                    </div>
+
+                    <div class="img-box">
+                        <img src="https://i1.sndcdn.com/artworks-000539543664-jb677z-t500x500.jpg" alt="Lovely">
+                        <h3>Lovely</h3>
+                        <span>16,Jan 2023</span>
+                    </div>
+
+                    <div class="img-box">
+                        <img src="https://cutewallpaper.org/21/the-chainsmokers-closer-ft-halsey-wallpapers/The-Chainsmokers,-Halsey-Closer-Acapella-in-2019-.jpg"
+                            alt="Closer">
+                        <h3>Closer</h3>
+                        <span>16,Jan 2023</span>
+                    </div>
+                    
+                    <div class="img-box">
+                        <img src="https://i.ytimg.com/vi/pA2ElzktvSE/maxresdefault.jpg" alt="Sunflower">
+                        <h3>Sunflower</h3>
+                        <span>16,Jan 2023</span>
+                    </div>
+
+                    <div class="img-box">
+                        <img src="https://www.billboard.com/wp-content/uploads/media/katy-perry-roar-video-650-430.jpg"
+                            alt="Roar">
+                        <h3>Roar</h3>
+                        <span>16,Jan 2023</span>
+                    </div>
+
+                    <div class="img-box">
+                        <img src="https://m.media-amazon.com/images/M/MV5BMzljNWVjODYtMjNkNS00N2E5LThlNmMtNjJiOTM1ZGVlM2NmXkEyXkFqcGdeQXVyMTk4OTA2Nzg@._V1_.jpg"
+                            alt="Perfect">
+                        <h3>Perfect</h3>
+                        <span>16,Jan 2023</span>
+                    </div>
+                </div>
+                
+            </section>
+            <!-- Latest Hindi -->
+            <section class="category  latest-songs" id="">
+                <h2>Latest Hindi</h2>
+                <div class="latest-box">
+                    <div class="img-box">
+                        <img src="https://c-fa.cdn.smule.com/rs-s-sf-4/arr/55/b7/1bbb2eea-8c5f-430e-bdb0-0f9b361bea7b_1024.jpg"
+                            alt="Vaaste">
+                        <h3>Vaaste</h3>
+                        <span>16,Jan 2023</span>
+                    </div>
+
+                    <div class="img-box">
+                        <img src="https://wallpapercave.com/wp/wp11238468.jpg" alt="Cham Cham">
+                        <h3>Cham Cham</h3>
+                        <span>16,Jan 2023</span>
+                    </div>
+
+                    <div class="img-box">
+                        <img src="https://i.ytimg.com/vi/LvCN2ah0nT4/maxresdefault.jpg" alt="Khairiyat" width="220"
+                            height="220">
+                        <h3>Khairiyat</h3>
+                        <span>16,Jan 2023</span>
+                    </div>
+
+                    <div class="img-box">
+                        <img src="https://i1.sndcdn.com/artworks-UnNJCoYvPb3rWsE6-w6EJUg-t500x500.jpg"
+                            alt="Tujh Mein Rab Dikhta Hai">
+                        <h3>Tujh Mein Rab </h3>
+                        <span>16,Jan 2023</span>
+                    </div>
+
+                    <div class="img-box">
+                        <img src="https://static.toiimg.com/thumb/resizemode-4,width-1200,height-900,msid-65105082/65105082.jpg"
+                            alt="Dilbar">
+                        <h3>Dilbar</h3>
+                        <span>16,Jan 2023</span>
+                    </div>
+
+                    <div class="img-box">
+                        <img src="https://i.ndtvimg.com/mt/movies/2013-04/balam-pichkaristill.jpg" alt="Balam Pichkari">
+                        <h3>Balam pichkari</h3>
+                        <span>16,Jan 2023</span>
+                    </div>
+
+                    <div class="img-box">
+                        <img src="https://c-fa.cdn.smule.com/rs-s-sf-4/arr/55/b7/1bbb2eea-8c5f-430e-bdb0-0f9b361bea7b_1024.jpg"
+                            alt="Vaaste">
+                        <h3>Vaaste</h3>
+                        <span>16,Jan 2023</span>
+                    </div>
+
+                    <div class="img-box">
+                        <img src="https://wallpapercave.com/wp/wp11238468.jpg" alt="Cham Cham">
+                        <h3>Cham Cham</h3>
+                        <span>16,Jan 2023</span>
+                    </div>
+
+                    <div class="img-box">
+                        <img src="https://i.ytimg.com/vi/LvCN2ah0nT4/maxresdefault.jpg" alt="Khairiyat" width="220"
+                            height="220">
+                        <h3>Khairiyat</h3>
+                        <span>16,Jan 2023</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Latest Punjabi -->
+            <section class="category  latest-songs" id="">
+                <h2>Latest Punjabi</h2>
+                <div class="latest-box">
+                    <div class="img-box">
+                        <img src="https://i.pinimg.com/736x/b8/4d/bf/b84dbf79ec3cbe2fcd2f6a99d5669245.jpg"
+                            alt="Lehanga">
+                        <h3>Lehanga</h3>
+                        <span>16,Jan 2023</span>
+                    </div>
+
+                    <div class="img-box">
+                        <img src="https://i.ytimg.com/vi/6sp3R0-jKCw/maxresdefault.jpg" alt="Daru Badnam" width="220"
+                            height="220">
+                        <h3>Daru Badnam</h3>
+                        <span>16,Jan 2023</span>
+                    </div>
+
+                    <div class="img-box">
+                        <img src="https://a10.gaanacdn.com/images/albums/68/2249968/crop_480x480_1540031665_2249968.jpg"
+                            alt="Sakhiyaan">
+                        <h3>Sakhiyaan</h3>
+                        <span>16,Jan 2023</span>
+                    </div>
+
+                    <div class="img-box">
+                        <img src="https://a10.gaanacdn.com/images/albums/35/1923735/crop_480x480_1497954537_1923735.jpg"
+                            alt="Na Ja">
+                        <h3>Na Ja</h3>
+                        <span>16,Jan 2023</span>
+                    </div>
+
+                    <div class="img-box">
+                        <img src="https://www.androidmobileszone.com/protected/uploads/media/cover/Mann_Bharya_New_Version_Ringtone.jpg"
+                            alt="Mann Bharya">
+                        <h3>Mann Bharya 2.0</h3>
+                        <span>16,Jan 2023</span>
+                    </div>
+
+                    <div class="img-box">
+                        <img src="https://c.saavncdn.com/522/Prada-Punjabi-2018-20220803074505-500x500.jpg" alt="Prada">
+                        <h3>Prada</h3>
+                        <span>16,Jan 2023</span>
+                    </div>
+
+                    <div class="img-box">
+                        <img src="https://i.pinimg.com/736x/b8/4d/bf/b84dbf79ec3cbe2fcd2f6a99d5669245.jpg"
+                            alt="Lehanga">
+                        <h3>Lehanga</h3>
+                        <span>16,Jan 2023</span>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+        <!-- right side -->
+        <aside class="queue-section" id="queue-part">
+            <div class="queue-heading">
+                <h1>Queue</h1>
+                <a href="#play-music">
+                    <i class="bi bi-three-dots-vertical close-queue"></i>
+                </a>
+            </div>
+            <ul class="queue-list">
+                <li class="songs">
+                    <a href="#">
+                        <span>01</span>
+                        <img src="https://m.media-amazon.com/images/M/MV5BMzljNWVjODYtMjNkNS00N2E5LThlNmMtNjJiOTM1ZGVlM2NmXkEyXkFqcGdeQXVyMTk4OTA2Nzg@._V1_.jpg"
+                            alt="Pefect">
+                        <div class="song-desc">
+                            <h3>Perfect</h3>
+                            <span>Ed Sheeran</span>
+                        </div>
+                        <i class="bi bi-suit-heart icon-center"></i>
+                    </a>
+                </li>
+                <li class="songs">
+                    <a href="#">
+                        <span>02</span>
+                        <img src="https://filmfare.wwmindia.com/content/2022/apr/arijitsingh11650885572.jpg" alt="">
+                        <div class="song-desc">
+                            <h3>Tum hi ho</h3>
+                            <span>Arijit Singh</span>
+                        </div>
+                        <i class="bi bi-suit-heart icon-center"></i>
+                    </a>
+                </li>
+                <li class="songs">
+                    <a href="#">
+                        <span>03</span>
+                        <img src="https://c.saavncdn.com/136/Laare-Punjabi-2019-20191203093340-500x500.jpg" alt="Laare">
+                        <div class="song-desc">
+                            <h3>Laare</h3>
+                            <span>Maninder Buttar</span>
+                        </div>
+                        <i class="bi bi-suit-heart icon-center"></i>
+                    </a>
+                </li>
+                <li class="songs">
+                    <a href="#">
+                        <span>04</span>
+                        <img src="https://i.ytimg.com/vi/r7Rn4ryE_w8/maxresdefault.jpg" alt="Sunflower">
+                        <div class="song-desc">
+                            <h3>Sun Flower</h3>
+                            <span>Post Malone</span>
+                        </div>
+                        <i class="bi bi-suit-heart icon-center"></i>
+                    </a>
+                </li>
+
+                <li class="songs">
+                    <a href="#">
+                        <span>05</span>
+                        <img src="https://cdn.djjaani.com/180x180/1716.jpg" alt="Jatti Da Crush">
+                        <div class="song-desc">
+                            <h3>Jatti Da Crush</h3>
+                            <span>Kay Vee Singh</span>
+                        </div>
+                        <i class="bi bi-suit-heart icon-center"></i>
+                    </a>
+                </li>
+
+                <li class="songs">
+                    <a href="#">
+                        <span>06</span>
+                        <img src="http://cbstatic.charmboard.com/im/lc/643833.jpg" alt="Prada">
+                        <div class="song-desc">
+                            <h3>Prada</h3>
+                            <span>Jass Manak</span>
+                        </div>
+                        <i class="bi bi-suit-heart icon-center"></i>
+                    </a>
+                </li>
+
+                <li class="songs">
+                    <a href="#">
+                        <span>07</span>
+                        <img src="https://c-fa.cdn.smule.com/rs-s-sf-2/sing_google/performance/cover/71/d3/93cfc580-e6b0-4db7-96a9-c4ef69bac412_512.jpg"
+                            alt="Lovely">
+                        <div class="song-desc">
+                            <h3>Lovely</h3>
+                            <span>Billie Eilish</span>
+                        </div>
+                        <i class="bi bi-suit-heart icon-center"></i>
+                    </a>
+                </li>
+
+                <li class="songs">
+                    <a href="#">
+                        <span>08</span>
+                        <img src="https://is2-ssl.mzstatic.com/image/thumb/Music115/v4/11/d6/58/11d658ed-2ee0-31bb-da65-3377b879f7fe/00602557543537.rgb.jpg/1200x1200bf-60.jpg"
+                            alt="Despacito">
+                        <div class="song-desc">
+                            <h3>Despacito</h3>
+                            <span>Luis Fonsi</span>
+                        </div>
+                        <i class="bi bi-suit-heart icon-center"></i>
+                    </a>
+                </li>
+
+                <li class="songs">
+                    <a href="#">
+                        <span>09</span>
+                        <img src="https://snooplyrics.com/wp-content/uploads/2020/12/Waalian-Lyrics-Harnoor-Ft.-Gurlez-Akhtar-Gifty-The-Kidd-Katierose-Bae.jpg"
+                            alt="Waalian">
+                        <div class="song-desc">
+                            <h3>Waalian</h3>
+                            <span>Harnoor</span>
+                        </div>
+                        <i class="bi bi-suit-heart icon-center"></i>
+                    </a>
+                </li>
+
+                <li class="songs">
+                    <a href="#">
+                        <span>10</span>
+                        <img src="https://cdn.siasat.com/wp-content/uploads/2022/07/New-Project-73.jpg" alt="Kesariya">
+                        <div class="song-desc">
+                            <h3>Kesariya</h3>
+                            <span>Arijit Singh</span>
+                        </div>
+                        <i class="bi bi-suit-heart icon-center"></i>
+                    </a>
+                </li>
+
+                <li class="songs">
+                    <a href="#">
+                        <span>11</span>
+                        <img src="https://m.media-amazon.com/images/M/MV5BMzljNWVjODYtMjNkNS00N2E5LThlNmMtNjJiOTM1ZGVlM2NmXkEyXkFqcGdeQXVyMTk4OTA2Nzg@._V1_.jpg"
+                            alt="Pefect">
+                        <div class="song-desc">
+                            <h3>Perfect</h3>
+                            <span>Ed Sheeran</span>
+                        </div>
+                        <i class="bi bi-suit-heart icon-center"></i>
+                    </a>
+                </li>
+                <li class="songs">
+                    <a href="#">
+                        <span>12</span>
+                        <img src="https://filmfare.wwmindia.com/content/2022/apr/arijitsingh11650885572.jpg" alt="">
+                        <div class="song-desc">
+                            <h3>Tum hi ho</h3>
+                            <span>Arijit Singh</span>
+                        </div>
+                        <i class="bi bi-suit-heart icon-center"></i>
+                    </a>
+                </li>
+                <li class="songs">
+                    <a href="#">
+                        <span>13</span>
+                        <img src="https://c.saavncdn.com/136/Laare-Punjabi-2019-20191203093340-500x500.jpg" alt="Laare">
+                        <div class="song-desc">
+                            <h3>Laare</h3>
+                            <span>Maninder Buttar</span>
+                        </div>
+                        <i class="bi bi-suit-heart icon-center"></i>
+                    </a>
+                </li>
+                <li class="songs">
+                    <a href="#">
+                        <span>14</span>
+                        <img src="https://i.ytimg.com/vi/r7Rn4ryE_w8/maxresdefault.jpg" alt="Sunflower">
+                        <div class="song-desc">
+                            <h3>Sun Flower</h3>
+                            <span>Post Malone</span>
+                        </div>
+                        <i class="bi bi-suit-heart icon-center"></i>
+                    </a>
+                </li>
+
+                <li class="songs">
+                    <a href="#">
+                        <span>15</span>
+                        <img src="https://cdn.djjaani.com/180x180/1716.jpg" alt="Jatti Da Crush">
+                        <div class="song-desc">
+                            <h3>Jatti Da Crush</h3>
+                            <span>Kay Vee Singh</span>
+                        </div>
+                        <i class="bi bi-suit-heart icon-center"></i>
+                    </a>
+                </li>
+
+                <li class="songs">
+                    <a href="#">
+                        <span>16</span>
+                        <img src="http://cbstatic.charmboard.com/im/lc/643833.jpg" alt="Prada">
+                        <div class="song-desc">
+                            <h3>Prada</h3>
+                            <span>Jass Manak</span>
+                        </div>
+                        <i class="bi bi-suit-heart icon-center"></i>
+                    </a>
+                </li>
+
+                <li class="songs">
+                    <a href="#">
+                        <span>17</span>
+                        <img src="https://c-fa.cdn.smule.com/rs-s-sf-2/sing_google/performance/cover/71/d3/93cfc580-e6b0-4db7-96a9-c4ef69bac412_512.jpg"
+                            alt="Lovely">
+                        <div class="song-desc">
+                            <h3>Lovely</h3>
+                            <span>Billie Eilish</span>
+                        </div>
+                        <i class="bi bi-suit-heart icon-center"></i>
+                    </a>
+                </li>
+
+                <li class="songs">
+                    <a href="#">
+                        <span>18</span>
+                        <img src="https://is2-ssl.mzstatic.com/image/thumb/Music115/v4/11/d6/58/11d658ed-2ee0-31bb-da65-3377b879f7fe/00602557543537.rgb.jpg/1200x1200bf-60.jpg"
+                            alt="Despacito">
+                        <div class="song-desc">
+                            <h3>Despacito</h3>
+                            <span>Luis Fonsi</span>
+                        </div>
+                        <i class="bi bi-suit-heart icon-center"></i>
+                    </a>
+                </li>
+
+                <li class="songs">
+                    <a href="#">
+                        <span>19</span>
+                        <img src="https://snooplyrics.com/wp-content/uploads/2020/12/Waalian-Lyrics-Harnoor-Ft.-Gurlez-Akhtar-Gifty-The-Kidd-Katierose-Bae.jpg"
+                            alt="Waalian">
+                        <div class="song-desc">
+                            <h3>Waalian</h3>
+                            <span>Harnoor</span>
+                        </div>
+                        <i class="bi bi-suit-heart icon-center"></i>
+                    </a>
+                </li>
+
+                <li class="songs">
+                    <a href="#">
+                        <span>20</span>
+                        <img src="https://cdn.siasat.com/wp-content/uploads/2022/07/New-Project-73.jpg" alt="Kesariya">
+                        <div class="song-desc">
+                            <h3>Kesariya</h3>
+                            <span>Arijit Singh</span>
+                        </div>
+                        <i class="bi bi-suit-heart icon-center"></i>
+                    </a>
+                </li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer class="music-player" id="play-music">
+        <div class="player-left">
+            <div class="player-img-box">
+                <img src="https://c-fa.cdn.smule.com/rs-s80/arr/58/99/74c2a009-3032-4fed-8a93-559315b3b76a_1024.jpg"
+                    alt="">
+            </div>
+            <div class="player-name-box">
+                <h3>Perfect</h3>
+                <span>Ed-Sheeran</span>
+            </div>
+            <i class="bi bi-suit-heart-fill"></i>
+        </div>
+
+        <div class="player-mid">
+            <div class="player-control">
+                <i class="bi bi-shuffle"></i>
+                <i class="bi bi-skip-backward-fill"></i>
+                <i class="bi bi-pause-circle-fill"></i>
+                <i class="bi bi-skip-forward-fill"></i>
+                <i class="bi bi-repeat-1"></i>
+            </div>
+
+            <div class="control-bar">
+                <span class="song-timer">
+                    01:40
+                </span>
+                <div class="bar">
+                    <div class="song-progress">
+
+                    </div>
+                    <div class="bar-controller">
+
+                    </div>
+                </div>
+                <span class="song-timer">
+                    05:39
+                </span>
+            </div>
+        </div>
+        <div class="player-right">
+            <i class="bi bi-volume-up-fill volume-icon"></i>
+            <div class="volume-bar">
+                <div class="volume-indicator">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- For phone view -->
+    <div class="player-container">
+        <div class="imgbox">
+            <img src="https://c-fa.cdn.smule.com/rs-s80/arr/58/99/74c2a009-3032-4fed-8a93-559315b3b76a_1024.jpg"
+                alt="">
+        </div>
+        <div class="player-song-detail">
+            <h3>Perfect</h3>
+            <span>Ed Sheeran</span>
+        </div>
+            <i class="bi bi-skip-backward-fill skip-back"></i>
+            <i class="bi bi-pause-circle-fill"></i>
+            <i class="bi bi-skip-forward-fill skip-forward"></i>
+    </div>
+</body>
+
+</html>
